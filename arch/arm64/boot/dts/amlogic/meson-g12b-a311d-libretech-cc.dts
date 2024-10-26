@@ -119,3 +119,7 @@
 	clocks = <&xtal>, <&xtal>;
 	clock-names = "clkin0", "clkin1";
 };
+
+&npu {
+    status = "okay";
+};
