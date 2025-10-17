@@ -503,7 +503,7 @@
 			resets = <&pcie_rescal>, <&bcm_reset 43>;
 			reset-names = "rescal", "bridge";
 			msi-controller;
-			msi-parent = <&mip1>;
+			msi-parent = <&pcie0>;
 
 			ranges =
 				/* ~4GiB, 32-bit, non-prefetchable at PCIe 00_0000_0000 */
